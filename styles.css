@@ -447,11 +447,6 @@ nav ul li a.active {
 .other-options a:hover {
   color: #00cc66;
 }
-/*.other-options {
-  display: flex;
-  align-items: center;
-  gap: 15px; /* Adds space between buttons */
-}*/
 /* WhatsApp Button */
 .btn {
   display: inline-flex;
