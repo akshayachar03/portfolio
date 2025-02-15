@@ -439,14 +439,19 @@ nav ul li a.active {
 }
 .other-options a {
   color: #0f0f0f;
+  margin-right: 5px;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.contact-options a:hover {
+.other-options a:hover {
   color: #00cc66;
 }
-
+/*.other-options {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Adds space between buttons */
+}*/
 /* WhatsApp Button */
 .btn {
   display: inline-flex;
@@ -551,3 +556,70 @@ nav ul li a.active {
   color: #00ff88;
   box-shadow: 0 0 10px rgba(0, 255, 136, 0.8);
 }
+
+/* Form Group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 70%; /* Adjust field width */
+  padding: 10px;
+  border: 1px solid #00ff88;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 1rem;
+  margin: 10px 0; /* Add spacing between fields */
+  text-align: center;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #ccc;
+}
+
+/* Submit Button */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background: #00ff88;
+  color: #0a0a0a;
+  border: 2px solid #00ff88;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: transparent;
+  color: #00ff88;
+  box-shadow: 0 0 10px rgba(22, 237, 108, 0.8);
+}
+
+/* Form Container */
+#contact-form {
+  width: 40%; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
+}
+
