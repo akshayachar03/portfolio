@@ -528,3 +528,26 @@ nav ul li a.active {
   width: 30px;
   height: 30px;
 }
+
+/* View All Buttons */
+.view-all {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.view-all .btn {
+  padding: 10px 20px;
+  background: #00ff88;
+  color: #0a0a0a;
+  border: 2px solid #00ff88;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.view-all .btn:hover {
+  background: transparent;
+  color: #00ff88;
+  box-shadow: 0 0 10px rgba(0, 255, 136, 0.8);
+}
