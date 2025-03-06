@@ -1,7 +1,7 @@
 import { TimelineItem, Project, Skill } from './types';
-import Project1 from "./assets/flow1.png";
+import Project1 from "./assets/Project1.png";
 import Project2 from "./assets/Project2.webp";
-import Project3 from "./assets/Project3.webp";
+import Project3 from "./assets/Project3.jpg";
 import urlShortener from "./assets/url.png"
 import { ins } from 'framer-motion/client';
 
@@ -52,7 +52,7 @@ export const projectsData: Project[] = [
     longDescription: "This project implements a Jenkins pipeline for Java applications, integrating Maven for build management, SonarQube for code analysis, Docker for containerization, and Argo CD for GitOps-based deployment to Kubernetes, ensuring an automated, scalable, and reliable CI/CD workflow.",
     tags: ["Jenkins", "Git", "Maven", "SonarQube", "Docker", "Shell Script", "Argo CD", "Kubernetes",],
     imageUrl: Project1,
-    demoLink: "#",
+    //demoLink: "#",
     githubLink: "https://github.com/akshayachar03/CICD-Pipeline-Using-Jenkins/tree/main/java-maven-sonar-argocd-helm-k8s"
   },
   {
@@ -62,18 +62,18 @@ export const projectsData: Project[] = [
     longDescription: "This project automates EC2 instance lifecycle management, including provisioning, configuration, scaling, and termination, using Ansible for orchestration and Boto3 for AWS API interactions, ensuring efficient and scalable cloud resource management.",
     tags: ["Ansible", "AWS", "Boto3"],
     imageUrl: Project2,
-    demoLink: "#",
+    //demoLink: "#",
     githubLink: "https://github.com/akshayachar03/Ansible-Projects/tree/main/Resource-Creation"
   },
   {
     id: 3,
-    title: "AWS Resource Tracker",
-    description: "A beginner-friendly Bash script to list AWS resources using AWS CLI by specifying the region and service name.",
-    longDescription: "AWS Resource Tracker is a simple yet powerful Bash script that helps users retrieve information about their AWS infrastructure. It checks if AWS CLI is installed before execution and allows users to list various AWS resources, including EC2 instances (with IDs and names). By passing the AWS region and service name as command-line arguments, users can quickly and efficiently access the details of their AWS environment.",
-    tags: ["AWS", "Bash", "AWS CLI", "EC2"],
+    title: "DevSecOps Pipeline with GitHub Actions",
+    description: "A DevSecOps pipeline implementation for a Tic-Tac-Toe application using GitHub Actions, Docker, and Kubernetes to ensure automated security scanning and seamless deployment.",
+    longDescription: "This project features a robust DevSecOps pipeline designed to automate the CI/CD process for a Tic-Tac-Toe application. Using GitHub Actions, the pipeline performs unit testing, static code analysis, and Docker image builds. Security is enforced through Trivy vulnerability scanning before pushing images to the GitHub Container Registry (GHCR). The application is then deployed to a Kubernetes cluster using ArgoCD, ensuring a secure and scalable deployment process. This setup follows DevSecOps best practices to enhance software security while maintaining development speed.",
+    tags: ["GitHub Actions", "NPM", "Docker", "Trivy", "ArgoCD", "Kubernetes"],
     imageUrl: Project3,
-    demoLink: "#",
-    githubLink: "https://github.com/akshayachar03/Shell-scripting-examples/tree/main/AWS-Resource_Tracker"
+    //demoLink: "#",
+    githubLink: "https://github.com/akshayachar03/devsecops-pipeline"
   },
   // {
   //   id: 4,

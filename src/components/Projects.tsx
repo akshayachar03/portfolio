@@ -68,7 +68,7 @@ const Projects: React.FC = () => {
                           <Github size={18} className="text-white" />
                         </a>
                       )}
-                      {project.demoLink && (
+                      {/* {project.demoLink && (
                         <a 
                           href={project.demoLink} 
                           target="_blank" 
@@ -78,7 +78,7 @@ const Projects: React.FC = () => {
                         >
                           <ExternalLink size={18} className="text-white" />
                         </a>
-                      )}
+                      )} */}
                     </div>
                   </div>
                 </div>
@@ -194,7 +194,7 @@ const Projects: React.FC = () => {
                             href={projectsData.find(p => p.id === selectedProject)?.githubLink} 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className="px-6 py-3 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-900 dark:text-white font-medium flex items-center gap-2 transition-colors"
+                            className="px-6 py-3 rounded-lg bg-purple-600 hover:bg-purple-700 text-white font-medium flex items-center gap-2 transition-colors"
                           >
                             <Github size={18} />
                             <span>View Code</span>
