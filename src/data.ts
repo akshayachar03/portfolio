@@ -40,7 +40,7 @@ export const timelineEducationData: TimelineItem[] = [
     role: "Government PU College, Kundapura",
     date: "2017 - 2019",
     description: "Built a strong foundation in database management, and computer networking.",
-    skills: ["Programming with C", "Operating Systems & Computer Networks"]
+    skills: ["Programming with C", "Operating Systems", "Computer Networks"]
   }
 
 ];
