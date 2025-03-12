@@ -34,14 +34,15 @@ export const timelineEducationData: TimelineItem[] = [
     description: "Specialized in software engineering, and advanced algorithms.",
     skills: ["Software Engineering", "Database & Cloud Technologies"]
   },
-  // {
-  //   id: 2,
-  //   title: "Bachelor of Computer Applications (BCA)",
-  //   role: "Mangalore University",
-  //   date: "2019 - 2022",
-  //   description: "Built a strong foundation in programming, database management, and computer networking.",
-  //   skills: ["Programming with C, C++, Java, and Python", "Database Management & SQL", "Full-Stack Technologies", "Operating Systems & Computer Networks"]
-  // }
+  {
+    id: 2,
+    title: "Pre-University Course (PUC)",
+    role: "Government PU College, Kundapura",
+    date: "2017 - 2019",
+    description: "Built a strong foundation in database management, and computer networking.",
+    skills: ["Programming with C", "Operating Systems & Computer Networks"]
+  }
+
 ];
 
 export const projectsData: Project[] = [
@@ -87,24 +88,7 @@ export const projectsData: Project[] = [
   // }
 ];
 
-// export const skillsData: Skill[] = [
-//   { id: 1, name: "React", icon: "react", category: "Frontend" },
-//   { id: 2, name: "TypeScript", icon: "code", category: "Languages" },
-//   { id: 3, name: "JavaScript", icon: "code-2", category: "Languages" },
-//   { id: 4, name: "HTML/CSS", icon: "code-square", category: "Frontend" },
-//   { id: 5, name: "Node.js", icon: "server", category: "Backend" },
-//   { id: 6, name: "Next.js", icon: "frame", category: "Frontend" },
-//   { id: 7, name: "Tailwind CSS", icon: "palette", category: "Frontend" },
-//   { id: 8, name: "Git", icon: "git-branch", category: "Tools" },
-//   { id: 9, name: "MongoDB", icon: "database", category: "Backend" },
-//   { id: 10, name: "Express", icon: "webhook", category: "Backend" },
-//   { id: 11, name: "Docker", icon: "container", category: "DevOps" },
-//   { id: 12, name: "AWS", icon: "cloud", category: "DevOps" },
-//   { id: 13, name: "Redux", icon: "layers", category: "Frontend" },
-//   { id: 14, name: "PostgreSQL", icon: "database", category: "Backend" },
-//   { id: 15, name: "REST API", icon: "network", category: "Backend" },
-//   { id: 16, name: "GraphQL", icon: "webhook", category: "Backend" }
-// ];
+
 
 
 // export const skillsData: Skill[] = [
@@ -129,42 +113,27 @@ export const projectsData: Project[] = [
 // ];
 
 
-// export const skillsData: Skill[] = [
-//   { id: 1, name: "C/C++", icon: "devicon-cplusplus-plain", category: "Languages" },
-//   { id: 2, name: "JavaScript", icon: "devicon-javascript-plain", category: "Languages" },
-//   { id: 3, name: "Python", icon: "devicon-python-plain", category: "Languages" },
-//   { id: 4, name: "Java", icon: "devicon-java-plain", category: "Languages" },
-//   { id: 5, name: "SQL", icon: "devicon-mysql-plain", category: "Languages" },
-//   { id: 6, name: "HTML/CSS", icon: "devicon-html5-plain", category: "Frontend" },
-//   { id: 7, name: "ReactJS", icon: "devicon-react-original", category: "Frontend" },
-//   { id: 8, name: "Redux", icon: "devicon-redux-original", category: "Frontend" },
-//   { id: 9, name: "Node.js", icon: "devicon-nodejs-plain", category: "Backend" },
-//   { id: 10, name: "Express.js", icon: "devicon-express-original", category: "Backend" },
-//   { id: 11, name: "Tailwind CSS", icon: "devicon-tailwindcss-plain", category: "Frontend" },
-//   { id: 12, name: "Bootstrap", icon: "devicon-bootstrap-plain", category: "Frontend" },
-//   { id: 13, name: "Material UI", icon: "devicon-materialui-plain", category: "Frontend" },
-//   { id: 14, name: "MongoDB", icon: "devicon-mongodb-plain", category: "Backend" },
-//   { id: 15, name: "MySQL", icon: "devicon-mysql-plain", category: "Backend" },
-//   { id: 16, name: "PostgreSQL", icon: "devicon-postgresql-plain", category: "Backend" },
-//   { id: 17, name: "Firebase", icon: "devicon-firebase-plain", category: "Cloud" },
-//   { id: 18, name: "Git", icon: "devicon-git-plain", category: "Tools" }
-// ];
+
 
 export const skillsData: Skill[] = [
   { id: 1, name: "Linux", icon: "devicon-linux-plain", category: "Operating System" },
   { id: 2, name: "Golang", icon: "devicon-go-plain", category: "Languages" },
   { id: 3, name: "Git", icon: "devicon-git-plain", category: "Tools" },
-  { id: 4, name: "AWS", icon: "devicon-amazonwebservices-plain", category: "Cloud" },
-  { id: 5, name: "Azure", icon: "devicon-azure-plain", category: "Cloud" },
-  { id: 6, name: "Docker", icon: "devicon-docker-plain", category: "Containers" },
-  { id: 7, name: "Jenkins", icon: "devicon-jenkins-plain", category: "CI/CD" },
-  { id: 8, name: "Kubernetes", icon: "devicon-kubernetes-plain", category: "Containers" },
-  { id: 9, name: "Terraform", icon: "devicon-terraform-plain", category: "Infrastructure as Code" },
-  { id: 10, name: "Ansible", icon: "devicon-ansible-plain", category: "Configuration Management" },
-  { id: 11, name: "Prometheus", icon: "devicon-prometheus-plain", category: "Monitoring" },
-  { id: 12, name: "Grafana", icon: "devicon-grafana-plain", category: "Monitoring" },
-  { id: 13, name: "Bash", icon: "devicon-bash-plain", category: "Scripting" },
-  { id: 14, name: "Python", icon: "devicon-python-plain", category: "Languages" }
+  { id: 4, name: "GitHub", icon: "devicon-github-original", category: "Tools" },
+  { id: 5, name: "AWS", icon: "devicon-amazonwebservices-plain", category: "Cloud" },
+  { id: 6, name: "Azure", icon: "devicon-azure-plain", category: "Cloud" },
+  { id: 7, name: "Docker", icon: "devicon-docker-plain", category: "Containerization" },
+  { id: 8, name: "Jenkins", icon: "devicon-jenkins-plain", category: "CI/CD" },
+  { id: 9, name: "Kubernetes", icon: "devicon-kubernetes-plain", category: "Containerization" },
+  { id: 10, name: "Terraform", icon: "devicon-terraform-plain", category: "Infrastructure as Code" },
+  { id: 11, name: "Ansible", icon: "devicon-ansible-plain", category: "Configuration Management" },
+  { id: 12, name: "Prometheus", icon: "devicon-prometheus-plain", category: "Monitoring" },
+  { id: 13, name: "Grafana", icon: "devicon-grafana-plain", category: "Monitoring" },
+  { id: 14, name: "Bash", icon: "devicon-bash-plain", category: "Scripting" },
+  { id: 15, name: "Python", icon: "devicon-python-plain", category: "Languages" },
+  { id: 16, name: "GitHub Actions", icon: "devicon-githubactions-plain", category: "CI/CD" },
+  { id: 17, name: "ArgoCD", icon: "devicon-argocd-plain", category: "CI/CD" }
+  
 ];
 
 
