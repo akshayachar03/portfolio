@@ -9,6 +9,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Education from './components/Education';
+import Certificates from './components/Certificates';
 import { Toaster } from 'react-hot-toast';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Education />
         <Skills />
         <Projects />
+        <Certificates />
         <Contact />
         <Footer />
       </div>

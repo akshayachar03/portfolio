@@ -2,6 +2,9 @@ import { TimelineItem, Project, Skill } from './types';
 import Project1 from "./assets/Project1.png";
 import Project2 from "./assets/Project2.webp";
 import Project3 from "./assets/Project3.jpg";
+import Certificate1 from "./assets/Certificate1.png";
+import certificate2 from "./assets/certificate2.png";
+import certificate3 from "./assets/certificate3.png";
 import urlShortener from "./assets/url.png"
 import { ins } from 'framer-motion/client';
 
@@ -87,7 +90,38 @@ export const projectsData: Project[] = [
   //   githubLink: "https://github.com/neeraj-bn/url-shortener"
   // }
 ];
-
+export const certificatesData: Project[] = [
+  {
+    id: 1,
+    title: "Microsoft Certified: Azure Fundamentals",
+    description: "Certified in Azure fundamentals offered by Microsoft",
+    longDescription: "Explored about cloud concepts, Azure architecture and services, Azure management and governance",
+    tags: ["Cloud Basics","Azure"],
+    imageUrl: Certificate1,
+    //demoLink: "#",
+    githubLink: "https://learn.microsoft.com/en-us/users/akshayachar-1764/credentials/certification/azure-fundamentals?tab=credentials-tab"
+  },
+  {
+    id: 2,
+    title: "KodeKloud Certified: Docker Training Course",
+    description: "Certified in Docker Training Course for absolute beginners offered by KodeKloud",
+    longDescription: "Explored about Docker architecture, images, containers, volumes, storage, networks, Docker registry, Container orchestration and Docker Compose",
+    tags: ["Conntainers", "Docker Compose", "Orchestration","Docker"],
+    imageUrl: certificate2,
+    //demoLink: "#",
+    githubLink: "https://learn.kodekloud.com/user/certificate/2DEF37BC8303-2DEF31B7FC07-2DEF3189725B"
+  },
+  {
+    id: 3,
+    title: "KodeKloud Certified: Kubernetes for the Absolute Beginners",
+    description: "Certified in Kubernetes for the Absolute Beginners offered by KodeKloud",
+    longDescription: "Explored about Kubernetes architecture, pods, replicasets, services, deployments, volumes, storage classes, namespaces, ConfigMaps, secrets, Helm charts, and monitoring",
+    tags: ["YAML", "Microservices", "Pods", "Kubernetes"],
+    imageUrl: certificate3,
+    //demoLink: "#",
+    githubLink: "https://learn.kodekloud.com/user/certificate/7d911fac-285f-4f39-9eae-376f1fba0025"
+  },
+];
 
 
 
