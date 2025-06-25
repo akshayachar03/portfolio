@@ -151,7 +151,7 @@ const Navbar: React.FC = () => {
             <li>
               <a
                 href={resume}
-                download="Neeraj_Resume.pdf"
+                download="Akshay_Resume.pdf"
                 className="flex items-center gap-2 py-2 text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400"
                 onClick={toggleMenu}
               >
