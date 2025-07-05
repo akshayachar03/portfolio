@@ -1,6 +1,6 @@
 import { TimelineItem, Project, Skill } from './types';
 import Project1 from "./assets/Project1.png";
-import Project2 from "./assets/Project2.webp";
+import Project2 from "./assets/Project2.png";
 import Project3 from "./assets/Project3.jpg";
 import Certificate1 from "./assets/Certificate1.png";
 import certificate2 from "./assets/certificate2.png";
@@ -61,13 +61,13 @@ export const projectsData: Project[] = [
   },
   {
     id: 2,
-    title: "Automating EC2 Instance Management",
-    description: "Automating the provisioning, configuration, and management of EC2 instances using Ansible.",
-    longDescription: "This project automates EC2 instance lifecycle management, including provisioning, configuration, scaling, and termination, using Ansible for orchestration and Boto3 for AWS API interactions, ensuring efficient and scalable cloud resource management.",
-    tags: ["Ansible", "AWS", "Boto3"],
+    title: "Multi Micro Services application deployment using Azure DevOps",
+    description: "Deploying containerized microservices to Azure Kubernetes Service using Azure DevOps CI/CD and GitOps with ArgoCD.",
+    longDescription: "This project demonstrates the end-to-end automation of deploying a cloud-native microservices application using Azure DevOps for CI/CD pipelines, Azure Kubernetes Service (AKS) for orchestration, and ArgoCD for GitOps-driven continuous deployment. It includes setting up self-hosted agents, dynamically updating Kubernetes manifests, and implementing secure container image delivery through Azure Container Registry (ACR).",
+    tags: ["Azure DevOps", "Kubernetes", "GitOps", "ArgoCD", "Docker", "AKS", "Azure Container Registry", "CI/CD"],
     imageUrl: Project2,
     //demoLink: "#",
-    githubLink: "https://github.com/akshayachar03/Ansible-Projects/tree/main/Resource-Creation"
+    githubLink: "https://github.com/akshayachar03/multi-microservice-app"
   },
   {
     id: 3,
