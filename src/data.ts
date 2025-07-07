@@ -2,6 +2,7 @@ import { TimelineItem, Project, Skill } from './types';
 import Project1 from "./assets/Project1.png";
 import Project2 from "./assets/Project2.png";
 import Project3 from "./assets/Project3.jpg";
+import Project4 from "./assets/Project4.png";
 import Certificate1 from "./assets/Certificate1.png";
 import certificate2 from "./assets/certificate2.png";
 import certificate3 from "./assets/certificate3.png";
@@ -61,7 +62,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 2,
-    title: "Multi Micro Services application deployment using Azure DevOps",
+    title: "Multi micro services application deployment using Azure DevOps",
     description: "Deploying containerized microservices to Azure Kubernetes Service using Azure DevOps CI/CD and GitOps with ArgoCD.",
     longDescription: "This project demonstrates the end-to-end automation of deploying a cloud-native microservices application using Azure DevOps for CI/CD pipelines, Azure Kubernetes Service (AKS) for orchestration, and ArgoCD for GitOps-driven continuous deployment. It includes setting up self-hosted agents, dynamically updating Kubernetes manifests, and implementing secure container image delivery through Azure Container Registry (ACR).",
     tags: ["Azure DevOps", "Kubernetes", "GitOps", "ArgoCD", "Docker", "AKS", "Azure Container Registry", "CI/CD"],
@@ -79,16 +80,16 @@ export const projectsData: Project[] = [
     //demoLink: "#",
     githubLink: "https://github.com/akshayachar03/devsecops-pipeline"
   },
-  // {
-  //   id: 4,
-  //   title: "URL Shortener & Analytics",
-  //   description: "A URL shortening service with comprehensive analytics and tracking capabilities.",
-  //   longDescription: "This URL Shortener project is a web application that allows users to create shortened URLs for easier sharing. Beyond basic shortening functionality, it provides detailed analytics including click counts, geographic data of visitors, referral sources, and time-based activity charts. The application features user authentication, custom URL slugs, QR code generation for shortened URLs, and an intuitive dashboard to monitor and manage all shortened links. Built with modern web technologies, it offers a responsive design that works seamlessly across all devices.",
-  //   tags: ["React", "Supabase (PostgreSQL)", "shadcn/ui"],
-  //   imageUrl: urlShortener,
-  //   demoLink: "https://url-shortener-rouge-alpha.vercel.app/",
-  //   githubLink: "https://github.com/neeraj-bn/url-shortener"
-  // }
+  {
+    id: 4,
+    title: "CI/CD with Azure DevOps for a three-tier application deployment",
+    description: "A CI/CD-enabled three-tier slot booking system deployed to AKS using Azure DevOps and ArgoCD.",
+    longDescription: "This Three-Tier Slot Booking Application is a full-stack web solution built with HTML frontend, Flask backend, and MySQL database. It implements a robust CI/CD pipeline using Azure DevOps for continuous integration and ArgoCD for GitOps-based continuous deployment to Azure Kubernetes Service (AKS). The application is containerized using Docker, with images pushed to Azure Container Registry (ACR), and is exposed to the internet via NodePort for external accessibility. ArgoCD monitors the Git repository and automatically deploys updated Kubernetes manifests, offering streamlined and automated deployment workflows.",
+    tags: ["Azure DevOps", "AKS", "ArgoCD", "Docker", "Kubernetes", "Flask", "MySQL"],
+    imageUrl: Project4,
+    //demoLink: "#",
+    githubLink: "https://github.com/akshayachar03/three-tier-slot-booking-app"
+  },
 ];
 export const certificatesData: Project[] = [
   {
@@ -99,7 +100,7 @@ export const certificatesData: Project[] = [
     tags: ["Cloud Basics","Azure"],
     imageUrl: Certificate1,
     //demoLink: "#",
-    githubLink: "https://learn.microsoft.com/en-us/users/akshayachar-1764/credentials/certification/azure-fundamentals?tab=credentials-tab"
+    githubLink: "https://learn.microsoft.com/en-us/users/akshayachar-1764/credentials/401b1430256bbfc"
   },
   {
     id: 2,
