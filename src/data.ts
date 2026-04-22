@@ -94,6 +94,16 @@ export const projectsData: Project[] = [
 export const certificatesData: Project[] = [
   {
     id: 1,
+    title: "Microsoft Certified: Azure Solutions Architect Expert",
+    description: "Certified in Azure Solutions Architect Expert offered by Microsoft",
+    longDescription: "Demonstrated expertise in designing and implementing cloud solutions on Azure, including architecture planning, security, and compliance.",
+    tags: ["Azure Architecture", "Cloud Solutions", "Security", "Compliance"],
+    imageUrl: Certificate1,
+    //demoLink: "#",
+    githubLink: "https://learn.microsoft.com/en-us/users/akshay-8294/credentials/3736cb7d90fff228"
+  },
+  {
+    id: 2,
     title: "Microsoft Certified: Azure Administrator Associate",
     description: "Certified in Azure Administrator Associate offered by Microsoft",
     longDescription: "Demonstrated expertise in managing Azure identities and governance, implementing storage and compute solutions, configuring virtual networks, and monitoring cloud resources to maintain secure, scalable, and high-performing Azure environments.",
@@ -103,7 +113,7 @@ export const certificatesData: Project[] = [
     githubLink: "https://learn.microsoft.com/en-us/users/akshay-8294/credentials/9448bc6f1222c047"
   },
   {
-    id: 2,
+    id: 3,
     title: "Microsoft Certified: Azure Fundamentals",
     description: "Certified in Azure fundamentals offered by Microsoft",
     longDescription: "Explored about cloud concepts, Azure architecture and services, Azure management and governance",
@@ -113,7 +123,7 @@ export const certificatesData: Project[] = [
     githubLink: "https://learn.microsoft.com/en-us/users/akshayachar-1764/credentials/401b1430256bbfc"
   },
   {
-    id: 3,
+    id: 4,
     title: "KodeKloud Certified: Docker Training Course",
     description: "Certified in Docker Training Course for absolute beginners offered by KodeKloud",
     longDescription: "Explored about Docker architecture, images, containers, volumes, storage, networks, Docker registry, Container orchestration and Docker Compose",
@@ -123,7 +133,7 @@ export const certificatesData: Project[] = [
     githubLink: "https://learn.kodekloud.com/user/certificate/2DEF37BC8303-2DEF31B7FC07-2DEF3189725B"
   },
   {
-    id: 4,
+    id: 5,
     title: "KodeKloud Certified: Kubernetes for the Absolute Beginners",
     description: "Certified in Kubernetes for the Absolute Beginners offered by KodeKloud",
     longDescription: "Explored about Kubernetes architecture, pods, replicasets, services, deployments, volumes, storage classes, namespaces, ConfigMaps, secrets, Helm charts, and monitoring",
