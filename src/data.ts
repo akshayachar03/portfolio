@@ -3,6 +3,7 @@ import Project1 from "./assets/Project1.png";
 import Project2 from "./assets/Project2.png";
 import Project3 from "./assets/Project3.jpg";
 import Project4 from "./assets/Project4.png";
+import Project1new from "./assets/Project1new.png";
 import Certificate1 from "./assets/Certificate1.png";
 import certificate2 from "./assets/certificate2.png";
 import certificate3 from "./assets/certificate3.png";
@@ -52,6 +53,16 @@ export const timelineEducationData: TimelineItem[] = [
 export const projectsData: Project[] = [
   {
     id: 1,
+    title: "TicketHub - End-to-End DevOps Implementation using GitHub Actions, AKS, & GitOps",
+    description: "A cloud-native ticket management application deployed on Microsoft Azure using Docker, AKS, GitHub Actions, Argo CD, Helm, Prometheus, Grafana, Azure Monitor, and Log Analytics.",
+    longDescription: "This project demonstrates a complete Azure DevOps workflow by containerizing a full-stack React and Node.js application, publishing Docker images to Azure Container Registry (ACR), automating CI with GitHub Actions, implementing GitOps-based deployments using Argo CD and Helm on Azure Kubernetes Service (AKS), and configuring Prometheus, Grafana, Azure Monitor, and Log Analytics for application and infrastructure monitoring.",
+    tags: ["Azure", "Docker", "AKS", "ACR", "GitHub Actions", "Helm", "Argo CD", "GitOps", "Prometheus", "Grafana", "Azure Monitor", "Log Analytics", "React", "Node.js", "MongoDB Atlas",],
+    imageUrl: Project1new,
+    //demoLink: "#",
+    githubLink: "https://github.com/akshayachar03/TicketHub"
+  },
+  {
+    id: 2,
     title: "CI/CD Pipeline with Jenkins",
     description: "A Jenkins pipeline automating the CI/CD process for Java applications using Maven, SonarQube, Argo CD, and Kubernetes for efficient building, testing, and deployment.",
     longDescription: "This project implements a Jenkins pipeline for Java applications, integrating Maven for build management, SonarQube for code analysis, Docker for containerization, and Argo CD for GitOps-based deployment to Kubernetes, ensuring an automated, scalable, and reliable CI/CD workflow.",
