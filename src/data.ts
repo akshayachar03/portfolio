@@ -183,11 +183,11 @@ export const certificatesData: Project[] = [
 
 export const skillsData: Skill[] = [
   { id: 1, name: "Linux", icon: "devicon-linux-plain", category: "Operating System" },
-  { id: 2, name: "Golang", icon: "devicon-go-plain", category: "Languages" },
+  { id: 2, name: "Windows", icon: "devicon-windows11-plain", category: "Operating System" },
   { id: 3, name: "Git", icon: "devicon-git-plain", category: "Tools" },
   { id: 4, name: "GitHub", icon: "devicon-github-original", category: "Tools" },
-  { id: 5, name: "AWS", icon: "devicon-amazonwebservices-plain", category: "Cloud" },
-  { id: 6, name: "Azure", icon: "devicon-azure-plain", category: "Cloud" },
+  { id: 5, name: "Azure", icon: "devicon-azure-plain", category: "Cloud" },
+  { id: 6, name: "AWS", icon: "devicon-amazonwebservices-plain", category: "Cloud" },
   { id: 7, name: "Docker", icon: "devicon-docker-plain", category: "Containerization" },
   { id: 8, name: "Jenkins", icon: "devicon-jenkins-plain", category: "CI/CD" },
   { id: 9, name: "Kubernetes", icon: "devicon-kubernetes-plain", category: "Containerization" },
@@ -198,8 +198,8 @@ export const skillsData: Skill[] = [
   { id: 14, name: "Bash", icon: "devicon-bash-plain", category: "Scripting" },
   { id: 15, name: "Python", icon: "devicon-python-plain", category: "Languages" },
   { id: 16, name: "GitHub Actions", icon: "devicon-githubactions-plain", category: "CI/CD" },
-  { id: 17, name: "ArgoCD", icon: "devicon-argocd-plain", category: "CI/CD" }
-  
+  { id: 17, name: "ArgoCD", icon: "devicon-argocd-plain", category: "CI/CD" },
+  { id: 18, name: "AIOps", icon: "devicon-pytorch-original", category: "AI & Automation" }
 ];
 
 
