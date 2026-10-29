@@ -16,8 +16,8 @@ export const timelineExperienceData: TimelineItem[] = [
     title: "Software Engineer",
     role: "Poornam Infovision Pvt. Ltd.",
     date: "Aug 2023 - Present",
-    description: "Providing system support for Linux and Windows environments, ensuring seamless operations and troubleshooting critical issues. Currently expanding expertise in DevOps by learning automation, CI/CD pipelines, and cloud infrastructure. Exploring tools like Docker, Kubernetes, Terraform, and Ansible to streamline deployments and improve system reliability. Passionate about bridging system administration with DevOps practices to enhance scalability and operational efficiency.",
-    skills: ["Linux", "Windows", "Shell Scripting", "Docker", "Kubernetes", "Terraform", "Ansible", "CI/CD", "AWS", "Azure"]
+    description: "Currently working in a DevOps-focused role, supporting Azure cloud infrastructure, AKS/Kubernetes workloads, deployments, monitoring, and troubleshooting in a client environment. Hands-on experience with Azure, Kubernetes, Docker, Terraform, CI/CD, Helm, and GitOps practices, with a focus on cloud infrastructure and application deployments. Working with Azure networking, Azure Monitor, Log Analytics, containerized workloads, and automation to improve reliability, scalability, and operational efficiency. Microsoft Certified: Azure Solutions Architect Expert (AZ-305) and Azure Administrator Associate (AZ-104).",
+    skills: ["Azure", "AKS", "Kubernetes", "Docker", "Terraform", "Helm", "Argo CD", "CI/CD", "Azure DevOps", "GitHub Actions", "Jenkins", "Git", "Azure Monitor", "Prometheus", "Grafana", "Linux", "Bash", "Ansible", "AWS"]
   },
   // {
   //   id: 2,
